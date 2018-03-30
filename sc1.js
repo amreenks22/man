@@ -5,7 +5,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 	
 	//Type appropriate comment here, and begin script below
 	
-	if ((newValue == "New Account Request") || (newValue == "Update to an existing account")) {
+	if ((newValue == "New Account Request") || (newValue == "Update to an existing account") {
 		
 		g_form.setVisible('api_module', true);
 		
@@ -77,7 +77,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.setValue('api_asset_data', '');
 		g_form.setValue('api_asset_link', '');
 		
-	}else{
+	}
 		g_form.setVisible('api_module', false);
 		g_form.setVisible('api_asset', false);
 		g_form.setVisible('api_change', false);
@@ -86,6 +86,11 @@ function onChange(control, oldValue, newValue, isLoading) {
 		g_form.setVisible('api_request', false);
 		g_form.setVisible('api_core', false);
 		g_form.setVisible('api_incident', false);
-	}
+	
 	
 }
+if(unexpectedCondition) {
+  alert("Unexpected Condition");
+}
+var input = $( "form input:radio" );
+var b = a.reverse();

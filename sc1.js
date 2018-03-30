@@ -94,3 +94,6 @@ if(unexpectedCondition) {
 }
 var input = $( "form input:radio" );
 var b = a.reverse();
+var x = "Foo";
+"length" in x; // Noncompliant: TypeError
+0 in x; 
